@@ -1,7 +1,6 @@
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
-import time
 
 haar_face_cascade = cv2.CascadeClassifier('data/haarcascade_frontalface_alt.xml')
 lbp_face_cascade = cv2.CascadeClassifier('data/lbpcascade_frontalface.xml')
